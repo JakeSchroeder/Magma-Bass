@@ -15,7 +15,7 @@ void setup() {
   
   maxD = dist(100, 0, 200, 200);
   
-  file = new SoundFile(this, "Clubbed to Death (Kurayamino Variation).mp3");
+  file = new SoundFile(this, "Bassnectar - Timestretch (Official).mp3");
   
  amp = new Amplitude(this);
   file.play();
@@ -52,8 +52,8 @@ void draw() {
      
       //fill(redValue, 0, 0);
       specular(255,255,255);
-    shininess(8.0);
-    ambient(255,0,100);
+      shininess(8.0);
+      ambient(180,0,0);
       box(w, h, w);
       //rect(x - width / 2 + w / 2, 0, w - 2, h);
       popMatrix();
